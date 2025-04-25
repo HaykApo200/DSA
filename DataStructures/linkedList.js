@@ -1,3 +1,8 @@
+// A Linked List is a linear data structure used to store a collection of elements, called nodes, where each node contains two parts:
+// 1 Data: The actual value or information stored.
+// 2 Pointer (or Reference): A reference to the next node in the sequence.
+//Singly Linked List : Each node points only to the next node.
+
 class Node {
     constructor(data , next = null){
         this.data = data;
